@@ -14096,5 +14096,8 @@ but instead, [[Fill in here]] happens!.
 (defalias 'third  'caddr)
 (defalias 'forth  'cadddr)
 
+;;;###autoload
+(add-to-list 'auto-mode-alist '("\\.bsv\\'" . bsv-mode ))
+
 (provide 'bsv-mode)
 
